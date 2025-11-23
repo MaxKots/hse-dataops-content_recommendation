@@ -72,7 +72,7 @@ recommender-system/
 - Семантическое версионирование (SemVer) для релизов
 
 ### Процесс разработки:
-1. Создать feature branch: `git checkout -b feat/feature-name`
+1. Создать feature branch: `git checkout -b feature/имя_ветки`
 2. Разработать фичу, коммитить с Conventional Commits
 3. Создать Pull Request в `main`
 4. Пройти code review и CI проверки
