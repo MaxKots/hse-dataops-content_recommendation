@@ -26,3 +26,15 @@
 
 ### Fixed
 - Исправлена обработка edge cases в временных признаках
+- 
+## [0.3.0] - 2025-12-01
+
+### Added
+- Добавлен FastAPI реализация для модели MovieLens
+- добавлен dockerfile
+- добавлено в README.md UserStory
+### Changed
+- изменил класс модели и немного
+
+### Fixed
+- requirements.txt
