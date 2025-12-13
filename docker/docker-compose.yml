@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  ml-app:
+    image: ml-app:1.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ml-app
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
